@@ -1,52 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>My Revice File</title>
-</head>
-<body>
-    <h1>>Hello My Name is fayyaz</h1>
-    <img src="./image/ec466d7c-c409-4b3e-93eb-ff91bf246ea9.jpeg" alt=width ="500px" height="300px" style="width: 300px; height: 300px; "/>
-    <hr>
-    <p><a href="#school">School Name</a></p>
-   <p>i study in class <b>   11<sub>th </sub> </b> <br> and i am <i> good boy </i> i live india my goals is softwere developer and my deram is persnol deram</p>
-   <p>my name is fay <sup> yaz </sup></p>
-   <p>i am good <strike> preson </strike></p>
-   <p><pre>my choese is                               
-    very big </pre></p>
-    <p id="school">my school name is molana abul kalam ajad</p>
+<html>
+    <head>
 
-   <p><a href="http://127.0.0.1:5500/HTML-Tutorial%20for%20Beginners/revice.html">Open the My File</a></p>
-    <h2>My Friend</h2>
+    </head>
+    <body>
 
+        <iframe src="animal.html" width="700px" height="350px"></iframe>
+        <p><a href="index.html">go back to index</a></p>
+        <p><a href="animal.html">go back to animal</a></p>
+        <h1> <u>table</u></h1>
+        <table border="5px solid black" cellpadding="10" cellspacing="10">
+            <tr>
+                <th colspan="6">name</th>
+            </tr>
+            <tr>
+                <th rowspan="6">cast</th>
+            </tr>
+            <tr>
+                <th>first name</th>
+                <th>last name</th>
+            </tr>
+            <tr>
+                <td>fayyaz</td>
+                <td>urrehman</td>
+                
+            </tr>
+            <tr>
+                <td>uzair</td>
+                <td>khilji</td>
+            </tr>
+            <tr>
+                <td>danish </td>
+                <td>chouhan</td>
+            </tr>
+            <tr>
+                <td>ayan</td>
+                <td>tazaks</td>
+            </tr>
+        </table>
+        <h1><u> List </u></h1>
+           <h2>foods-type</h2>
+        <ul type="squre" >
+            <li>vagitable</li>
+            <li>nonvagetable</li>
+            <li>frout</li>
+        </ul>
+            <h3>foods Name</h3>
+        <ol  type="I">
+            <li>tometo</li>
+            <li>Checkan</li>
+            <li>bananna</li>
+        </ol>
 
-   <table border="3px" cellpadding="10" cellspacing="6">
-<tr>
-    <th colspan="2">Name&Age</th>
-</tr>
-<tr>
-    <th rowspan="7" >Friend</th>
-</tr>
-    <tr>
-        <th>Fname</th>
-        <th>Lname</th>
-    </tr>
-    <tr>
-        <td>Fayyaz</td>
-        <td>11th</td>
-    </tr>
-    <tr>
-        <td>Danish</td>
-        <td>11th</td>
-    </tr>
-    <tr>
-        <td>Ayyaz</td>
-        <td>9th</td>
-    </tr>
-    <tr>
-         <td>Uzair</td>
-         <td>9th</td>
-    </tr>
-   </table>
-     
-</body>
+        <dl>
+            <dt>Html</dt>
+            <dd>Hyper text markup language</dd>
+        </dl>
+        <dl>
+            <dt>Css</dt>
+            <dd>Cascading style sheet</dd>
+        </dl>
+        <h1><u> Form </u></h1>
+        <form>
+            UserName:<input type="text" name="uname"/> <br>
+            Password:<input type="text" name="pass" maxlength="8"/> <br>
+            Gender : <input type="radio" name="gender" value="male"/>Male
+                    <input type="radio" name="gender" value="female"/>Female <br>
+            Course : <input type="checkbox" name="course" value="html"/>HTML
+                     <input type="checkbox" name="course" value="css"/>CSS <br>
+           Age : <select name="Age">
+                  <option>10-20</option>
+                  <option>20 - 30</option>
+                  <option>30 - 40</option>
+                  <option>40 - 50</option>
+                  <option>50 - 60</option>
+                  <option>60 - 70</option>
+                  <option>70 - 80</option>
+            </select>  <br>
+            <textarea name="textarea" id="" cols="40" rows="10"></textarea> <br>
+                    <input type="submit" name="submit"/>
+                    <input type="reset" name="reset" />
+                    <input type="button" value="click"/>
+        </form>
+       
+    </body>
 </html>
